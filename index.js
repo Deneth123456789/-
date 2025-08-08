@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `DENETH-YT connected ✅\n\nPREFIX: ${prefix}`;
       await DENETH.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true` },
+        image: { url: `` },
         caption: up
       });
 
